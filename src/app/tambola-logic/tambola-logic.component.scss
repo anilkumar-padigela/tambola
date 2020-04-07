@@ -1,0 +1,17 @@
+.displayNumber{
+    display: table-cell;
+    border: 1px solid red;
+}
+
+.matrixContent{
+    display: table-cell;
+    border: 1px solid red;
+    text-align: center;
+    /* margin: 8px; */
+    padding: 10px;
+}
+
+.ticketContent{
+    display: table-row;
+    border: 1px solid red;
+}

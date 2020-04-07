@@ -1,0 +1,22 @@
+<p>tambola-logic works!</p>
+
+<!--
+    iterate the tickets
+    Each ticket  has 3 rows 
+    Each row  has 9 columns
+-->
+
+<div class="container">
+    <div class="ticketContainer" *ngFor="let ticket of tickets">
+        <div class="ticketContent" *ngFor="let matrix of ticket.A">  
+            
+              <div class="matrixContent" *ngFor="let rowNumber of matrix">
+                    {{rowNumber>0?rowNumber: ''}}
+            </div>              
+        </div>
+
+        <div>&nbsp;&nbsp;&nbsp;</div>
+
+
+    </div>
+</div>
